@@ -1,0 +1,12 @@
+Partition Type - Key Logic
+
+Naive Partition:	Make a new array — first put all numbers smaller than or equal to the pivot, 
+    then the pivot, then all greater numbers, and copy it back.
+
+Lomuto Partition:	Take the last element as the pivot, move left to right — 
+    whenever you find a smaller number, swap it forward and move the boundary — 
+    at the end, place the pivot in its correct spot.
+
+Hoare Partition:	Pick the first element as the pivot, use two pointers 
+    — one from left and one from right — 
+    move them toward each other and swap elements that are on the wrong sides until they cross.

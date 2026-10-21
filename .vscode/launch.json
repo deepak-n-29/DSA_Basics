@@ -1,0 +1,231 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "heap",
+            "request": "launch",
+            "mainClass": "Heap.heap",
+            "projectName": "DSA_Basics_b7415f3f"
+        },
+        {
+            "type": "java",
+            "name": "MinHeap",
+            "request": "launch",
+            "mainClass": "Heap.MinHeap",
+            "projectName": "DSA_Basics_b7415f3f"
+        },
+        {
+            "type": "java",
+            "name": "ceilInBst",
+            "request": "launch",
+            "mainClass": "BST.Operation.ceilInBst",
+            "projectName": "DSA_Basics_b7415f3f"
+        },
+        {
+            "type": "java",
+            "name": "floorInBst",
+            "request": "launch",
+            "mainClass": "BST.Operation.floorInBst",
+            "projectName": "DSA_Basics_b7415f3f"
+        },
+        {
+            "type": "java",
+            "name": "deleteBst",
+            "request": "launch",
+            "mainClass": "BST.Operation.deleteBst",
+            "projectName": "DSA_Basics_b7415f3f"
+        },
+        {
+            "type": "java",
+            "name": "searchBst",
+            "request": "launch",
+            "mainClass": "BST.Operation.searchBst",
+            "projectName": "DSA_Basics_b7415f3f"
+        },
+        {
+            "type": "java",
+            "name": "insertBst",
+            "request": "launch",
+            "mainClass": "BST.Operation.insertBst",
+            "projectName": "DSA_Basics_b7415f3f"
+        },
+        {
+            "type": "java",
+            "name": "IterativePreorderTraversal",
+            "request": "launch",
+            "mainClass": "Tree.Traversal.IterativePreorderTraversal",
+            "projectName": "DSA_Basics_b7415f3f"
+        },
+        {
+            "type": "java",
+            "name": "IterativeInorderTraversal",
+            "request": "launch",
+            "mainClass": "Tree.Traversal.IterativeInorderTraversal",
+            "projectName": "DSA_Basics_b7415f3f"
+        },
+        {
+            "type": "java",
+            "name": "MaximumInBinaryTree",
+            "request": "launch",
+            "mainClass": "Tree.problems.MaximumInBinaryTree",
+            "projectName": "DSA_Basics_b7415f3f"
+        },
+        {
+            "type": "java",
+            "name": "SizeOfBinaryTree",
+            "request": "launch",
+            "mainClass": "Tree.problems.SizeOfBinaryTree",
+            "projectName": "DSA_Basics_b7415f3f"
+        },
+        {
+            "type": "java",
+            "name": "PrintNodesAtKdistance",
+            "request": "launch",
+            "mainClass": "Tree.problems.PrintNodesAtKdistance",
+            "projectName": "DSA_Basics_b7415f3f"
+        },
+        {
+            "type": "java",
+            "name": "LevelOrderTraversal",
+            "request": "launch",
+            "mainClass": "Tree.Traversal.LevelOrderTraversal",
+            "projectName": "DSA_Basics_b7415f3f"
+        },
+        {
+            "type": "java",
+            "name": "InOrderTraversal",
+            "request": "launch",
+            "mainClass": "Tree.Traversal.InOrderTraversal",
+            "projectName": "DSA_Basics_b7415f3f"
+        },
+        {
+            "type": "java",
+            "name": "PostOrderTraversal",
+            "request": "launch",
+            "mainClass": "Tree.Traversal.PostOrderTraversal",
+            "projectName": "DSA_Basics_b7415f3f"
+        },
+        {
+            "type": "java",
+            "name": "PreOrderTraversal",
+            "request": "launch",
+            "mainClass": "Tree.PreOrderTraversal",
+            "projectName": "DSA_Basics_b7415f3f"
+        },
+        {
+            "type": "java",
+            "name": "InOrderTraversal",
+            "request": "launch",
+            "mainClass": "Tree.InOrderTraversal",
+            "projectName": "DSA_Basics_b7415f3f"
+        },
+        {
+            "type": "java",
+            "name": "FrequenciesOfArrayElements",
+            "request": "launch",
+            "mainClass": "Hashing.Problems.FrequenciesOfArrayElements",
+            "projectName": "DSA_Basics_b7415f3f"
+        },
+        {
+            "type": "java",
+            "name": "CountDistinctElements",
+            "request": "launch",
+            "mainClass": "Hashing.Problems.CountDistinctElements",
+            "projectName": "DSA_Basics_b7415f3f"
+        },
+        {
+            "type": "java",
+            "name": "LongestSubarrayWithEqualZeroAndOne",
+            "request": "launch",
+            "mainClass": "Hashing.Problems.LongestSubarrayWithEqualZeroAndOne",
+            "projectName": "DSA_Basics_b7415f3f"
+        },
+        {
+            "type": "java",
+            "name": "LongestSubarrayWithGivenSum",
+            "request": "launch",
+            "mainClass": "Hashing.Problems.LongestSubarrayWithGivenSum",
+            "projectName": "DSA_Basics_b7415f3f"
+        },
+        {
+            "type": "java",
+            "name": "SubarrayWithGivenSum",
+            "request": "launch",
+            "mainClass": "Hashing.Problems.SubarrayWithGivenSum",
+            "projectName": "DSA_Basics_b7415f3f"
+        },
+        {
+            "type": "java",
+            "name": "ImplementationOfOpenAddressing",
+            "request": "launch",
+            "mainClass": "Hashing.OpenAddressing.ImplementationOfOpenAddressing",
+            "projectName": "DSA_Basics_b7415f3f"
+        },
+        {
+            "type": "java",
+            "name": "ImplementationOfChaining",
+            "request": "launch",
+            "mainClass": "Hashing.Chaining.ImplementationOfChaining",
+            "projectName": "DSA_Basics_b7415f3f"
+        },
+        {
+            "type": "java",
+            "name": "MaximumGuests",
+            "request": "launch",
+            "mainClass": "Sorting.problemList.MaximumGuests",
+            "projectName": "DSA_Basics_b7415f3f"
+        },
+        {
+            "type": "java",
+            "name": "MergeOverlappingIntervals",
+            "request": "launch",
+            "mainClass": "Sorting.problemList.MergeOverlappingIntervals",
+            "projectName": "DSA_Basics_b7415f3f"
+        },
+        {
+            "type": "java",
+            "name": "SortAnArrayWithTwoTypes",
+            "request": "launch",
+            "mainClass": "Sorting.problemList.SortAnArrayWithTwoTypes",
+            "projectName": "DSA_Basics_b7415f3f"
+        },
+        {
+            "type": "java",
+            "name": "KthSmallestElement",
+            "request": "launch",
+            "mainClass": "Sorting.problemList.KthSmallestElement",
+            "projectName": "DSA_Basics_b7415f3f"
+        },
+        {
+            "type": "java",
+            "name": "CountInversion",
+            "request": "launch",
+            "mainClass": "Sorting.problemList.CountInversion",
+            "projectName": "DSA_Basics_b7415f3f"
+        },
+        {
+            "type": "java",
+            "name": "UnionOfTwoSortedArrays",
+            "request": "launch",
+            "mainClass": "Sorting.problemList.UnionOfTwoSortedArrays",
+            "projectName": "DSA_Basics_b7415f3f"
+        },
+        {
+            "type": "java",
+            "name": "IntersectionOfTwoSortedArrays",
+            "request": "launch",
+            "mainClass": "Sorting.problemList.IntersectionOfTwoSortedArrays",
+            "projectName": "DSA_Basics_b7415f3f"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}

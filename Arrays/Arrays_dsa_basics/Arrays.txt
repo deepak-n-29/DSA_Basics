@@ -1,0 +1,8 @@
+Largest Element in an Array
+Check if an Array is Sorted
+Second Largest Element in Array
+Reverse an Array
+Remove duplicates from a sorted array
+Left Rotate an Array by One
+Left Rotate an Array by D places
+Move Zeros to the End

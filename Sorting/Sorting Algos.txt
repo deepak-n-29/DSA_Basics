@@ -1,0 +1,113 @@
+
+| Sorting Algorithm |Best Time Complexity| Average Time Complexity | Worst Time Complexity | Space Complexity | Stability |
+|-------------------|--------------------|-------------------------|-----------------------|------------------|-----------|
+| Bubble Sort       | O(n)               | O(n^2)                  | O(n^2)                | O(1)             | Stable    |
+| Selection Sort    | O(n^2)             | O(n^2)                  | O(n^2)                | O(1)             | Unstable  |
+| Insertion Sort    | O(n)               | O(n^2)                  | O(n^2)                | O(1)             | Stable    |
+| Merge Sort        | O(n log n)         | O(n log n)              | O(n log n)            | O(n)             | Stable    |
+| Quick Sort        | O(n log n)         | O(n log n)              | O(n^2)                | O(log n)         | Unstable  |
+| Heap Sort         | O(n log n)         | O(n log n)              | O(n log n)            | O(1)             | Unstable  |
+| Counting Sort     | O(n + k)           | O(n + k)                | O(n + k)              | O(k)             | Stable    |
+| Radix Sort        | O(nk)              | O(nk)                   | O(nk)                 | O(n + k)         | Stable    |
+| Bucket Sort       | O(n + k)           | O(n + k)                | O(n^2)                | O(n + k)         | Stable    |
+| Shell Sort        | O(n log n)         | O(n log^2 n)            | O(n^2)                | O(1)             | Unstable  |
+
+
+🧩 1. Bubble Sort
+
+Logic:
+Repeatedly compare adjacent elements, swapping them if they are in the wrong order.
+After each pass, the largest element moves (“bubbles”) to the end.
+
+Pseudocode:
+for i = 0 to n - 2:
+    for j = 0 to n - i - 2:
+        if arr[j] > arr[j + 1]:
+            swap(arr[j], arr[j + 1])
+
+Key Idea:
+Each pass pushes the next-largest element to its correct position.
+
+🧩 2. Selection Sort
+
+Logic:
+Find the minimum element from the unsorted part and place it at the beginning of the unsorted region.
+
+Pseudocode:
+for i = 0 to n - 2:
+    minIndex = i
+    for j = i + 1 to n - 1:
+        if arr[j] < arr[minIndex]:
+            minIndex = j
+    swap(arr[i], arr[minIndex])
+
+Key Idea:
+Select → Swap → Expand the sorted region one element at a time.
+
+🧩 3. Insertion Sort
+
+Logic:
+Take each element and insert it into its correct position within the already sorted portion of the array.
+
+Pseudocode:
+for i = 1 to n - 1:
+    key = arr[i]
+    j = i - 1
+    while j >= 0 and arr[j] > key:
+        arr[j + 1] = arr[j]
+        j = j - 1
+    arr[j + 1] = key
+
+Key Idea:
+Pick the current element → Shift larger elements → Insert at correct place.
+
+
+⚡ 4. Merge Sort — "Divide and conquer (split, sort, and merge)"
+
+Logic:
+Split the array into halves until you get single elements, then merge them in sorted order.
+
+Steps:
+
+Divide array into two halves recursively until size = 1.
+Merge two sorted halves into one sorted array.
+
+Example:
+[4, 2, 1, 3]
+→ split → [4,2] [1,3]
+→ sort each → [2,4] [1,3]
+→ merge → [1,2,3,4]
+
+Time Complexity: O(n log n)
+Stable: ✅ Yes
+In-place: ❌ No (needs extra space for merging)
+
+⚔️ 5. Quick Sort — "Divide and conquer (partition around a pivot)"
+
+Logic:
+Pick a pivot, then rearrange (partition) the array so:
+
+all smaller elements are before the pivot,
+
+all greater elements are after.
+Then recursively sort the two halves.
+
+Steps:
+
+Choose pivot (first/last/random/middle).
+Partition: move smaller elements to left, larger to right.
+Recursively apply on left and right parts.
+
+Example:
+[4, 2, 7, 1, 3], pivot = 3
+→ [2, 1] | [3] | [4, 7]
+→ sort left and right
+→ [1, 2, 3, 4, 7]
+
+Time Complexity:
+
+Average: O(n log n)
+
+Worst: O(n²) (if bad pivot)
+Stable: ❌ No
+In-place: ✅ Yes

@@ -1,0 +1,34 @@
+Single Linked List:
+
+    linkedList:
+        1. printList
+        2. recursive printList
+
+    Insertion:
+        1. insert at head
+        2. insert at tail
+        3. insert at a given position
+
+    Deletion:
+        1. delete at head
+        2. delete at tail
+        3. delete at a given position
+
+    Search:
+        1. iterative search
+        2. Recursive search
+
+    ProblemList:
+        1. Print Middle
+        2. print Nth from the End
+        3. sorted Insert
+        4. reverse list
+        5. remove duplicates from sorted Linked List
+
+Circular Linked List:
+    1. Traversing a Circular linked List
+    2. Insert at Begin
+    3. Insert at the End
+    4. Delete Head Node
+    5. Delete Kth Node
+

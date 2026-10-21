@@ -1,0 +1,11 @@
+Aspect               | Iterative Binary Search                                               | Recursive Binary Search
+---------------------|-----------------------------------------------------------------------|----------------------------------------------
+Implementation       | Uses a loop to repeatedly divide the search range                     | Calls itself recursively with updated parameters
+Code Complexity      | Generally simpler and more straightforward                            | Can be more complex due to recursive calls
+Time Complexity      | O(log n)                                                              | O(log n)
+Space Complexity     | O(1)                                                                  | O(log n) due to the recursion stack
+Performance          | Typically faster due to lack of function call overhead                | Slightly slower due to overhead of recursive calls
+Readability          | Easy to understand for those comfortable with loops                   | May be more intuitive for those familiar with recursion
+Stack Overflow       | No risk of stack overflow                                             | Risk of stack overflow for very large arrays
+Debugging            | Easier to debug due to linear flow                                    | Can be harder to debug due to multiple call layers
+Use Cases            | Preferred for larger datasets and performance-critical applications   | Suitable for educational purposes and problems where recursion is a natural fit
